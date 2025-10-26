@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function App() {
      const { 
         data: session, 
-       
+      //  pij
     } = authClient.useSession() 
 
   const [email,setEmail] = useState("")
